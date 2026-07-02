@@ -1,10 +1,8 @@
-const DATABASE = "MONGODB_URI = "mongodb+srv://oshadamd05_db_user:LzWjINfr32GpUo6v@cluster0.mu6qfvw.mongodb.net/?appName=Cluster0"
-" // මෙතනට mongodb,mysql,postgresql or github token එකක් enter කරන්න මේ "" දෙක මැදට. (Enter a mongodb,mysql,postgresql or github token here between these two "".)
-const BOT_NUMBER = "+94727634194" // ඔයාගෙ whatsapp number එක. (your whatsapp number)
-const SESSION_ID = "PRABATH-MD~6Q4ZIGH58bNn9K7" // ඔයාගෙ session id එක මේකෙන් ගන්න - https://prabathmd-official.vercel.app
+const DATABASE = "mongodb+srv://oshadamd05_db_user:LzWjINfr32GpUo6v@cluster0.mu6qfvw.mongodb.net/?appName=Cluster0";
+const BOT_NUMBER = "94727634194"; // Rename whatsapp number rhm. (your whatsapp number)
+const SESSION_ID = "PRABATH-MD~6Q4ZIGH5#8NxOK7"; // ඔයාගෙ session id එක මෙතනින් දාන්න - https://prabathmd-official.vercel.app
 
-
-// ඉහත ඒව "" මැදට එකතු කරන්න වෙනත් කිසිම දෙයක් වෙනස් නොකරන්න ❌. (Add "" in the middle of the above and ❌ don't change anything else.)
+// ඉහත එවී "" මැදට එකතු කරන්න වෙනස් කිසිම දෙයක් වෙනස් නොවෙන්න ❌ . (Add "" in the middle of the above and ❌ don't change anything)
 
 
 const GITHUB_AUTH_TOKEN = DATABASE
@@ -14,3 +12,4 @@ export default {
     BOT_NUMBER,
     SESSION_ID
 };
+
