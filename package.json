@@ -1,7 +1,7 @@
 {
   "name": "prabath-md-next",
-  "version": "5.0.0",
-  "description": "PRABATH-MD_Next is a Powerful WhatsApp bot",
+  "version": "5.1.0",
+  "description": "PRABATH-MD_Next is a Powerful Whatsapp bot",
   "main": "start.js",
   "type": "module",
   "scripts": {
@@ -30,8 +30,8 @@
     "fs-extra": "^11.1.0",
     "google-image-sr": "^1.0.0",
     "google-tts-api": "^2.0.2",
-    "imgur": "2.5.0",
-    "jimp": "1.6.0",
+    "imgur": "latest",
+    "jimp": "1.6.1",
     "jspdf": "^2.5.1",
     "megajs": "^1.3.9",
     "mime-types": "2.1.35",
@@ -50,7 +50,9 @@
     "sqlite3": "5.1.7",
     "unzipper": "0.12.2",
     "wa-sticker-formatter": "^4.3.2",
-    "yt-search":"latest"
+    "yt-search":"latest",
+    "telegram":"2.26.22"
+    
   },
   "overrides": {
     "simple-xml-to-json": "1.2.4"
